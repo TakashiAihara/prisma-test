@@ -10,5 +10,5 @@ datasource db {
 model Task {
     id     Int     @id @default(autoincrement())
     title  String
-    status String? @default("in_progress")
+    status String?
 }

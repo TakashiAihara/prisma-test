@@ -20,6 +20,6 @@ describe('Task create', () => {
 
         expect(task).toHaveProperty('id');
         expect(task.title).toBe('Task 1');
-        expect(task.status).toBe('in_progress');
+        expect(task.status).toBeNull();
     });
 });
