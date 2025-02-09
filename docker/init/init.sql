@@ -1,0 +1,1 @@
+GRANT CREATE, ALTER, DROP, INDEX, REFERENCES ON *.* TO 'db_user'@'%';
